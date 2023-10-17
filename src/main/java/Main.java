@@ -13,6 +13,7 @@ public class Main extends Application {
         stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/login.fxml"))));
         //stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/registration.fxml"))));
         //stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/homepage.fxml"))));
+        //stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/forgotpw.fxml"))));
         stage.show();
         stage.setResizable(false);
     }

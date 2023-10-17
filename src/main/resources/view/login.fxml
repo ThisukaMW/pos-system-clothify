@@ -43,7 +43,7 @@
             <Image url="@../assets/user.png" />
          </image>
       </ImageView>
-      <Text fill="#0c1196" layoutX="368.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot Password?" underline="true" wrappingWidth="149.33673095703125">
+      <Text fill="#0c1196" layoutX="368.0" layoutY="251.0" onMouseClicked="#forgotPwOnAction" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot Password?" underline="true" wrappingWidth="149.33673095703125">
          <font>
             <Font size="14.0" />
          </font>

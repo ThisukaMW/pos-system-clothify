@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -31,6 +32,16 @@ public class LoginFormController {
 
         stage.setScene(scene);
         stage.show();
+    }
+
+    public void forgotPwOnAction(MouseEvent mouseEvent) throws IOException {
+        parent= FXMLLoader.load(getClass().getResource("/view/forgotpw.fxml"));
+        stage= (Stage) ((Node)mouseEvent.getSource()).getScene().getWindow();
+        scene=new Scene(parent);
+
+        stage.setScene(scene);
+        stage.show();
+
     }
 }
 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="397.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ForgotPwController">
+   <children>
+      <ImageView fitHeight="627.0" fitWidth="750.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#acb6bf90" height="434.0" layoutX="56.0" layoutY="25.0" stroke="#00000009" strokeType="INSIDE" width="405.0" />
+      <Text layoutX="82.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you forget your password then click the button send OTP and enter the pin in the below text field that recieved on your email.Then you can change your password." wrappingWidth="228.5366973876953" />
+      <JFXButton layoutX="82.0" layoutY="131.0" prefHeight="26.0" prefWidth="89.0" style="-fx-background-color: black;" text="Send OTP" textFill="#ece7e7">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField alignment="CENTER" layoutX="107.0" layoutY="184.0" prefHeight="30.0" prefWidth="64.0" promptText="xxxx">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="186.0" layoutY="184.0" prefHeight="26.0" prefWidth="89.0" style="-fx-background-color: black;" text="Done" textFill="#ece7e7">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <Text layoutX="95.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Password" wrappingWidth="110.40002441406239" />
+      <Text layoutX="203.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <JFXTextField layoutX="235.0" layoutY="229.0" promptText="password" />
+      <Text layoutX="95.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password" wrappingWidth="110.40002441406239" />
+      <Text layoutX="201.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <JFXTextField layoutX="231.0" layoutY="270.0" promptText="retype password" />
+      <JFXButton layoutX="311.0" layoutY="336.0" prefHeight="26.0" prefWidth="89.0" style="-fx-background-color: black;" text="save" textFill="#b53528">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
