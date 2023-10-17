@@ -41,9 +41,9 @@ public class LoginFormController {
 
         stage.setScene(scene);
         stage.show();
-
     }
 }
+
 
 
 

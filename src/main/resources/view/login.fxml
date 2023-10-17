@@ -16,7 +16,7 @@
             <Image url="@../assets/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="40.0" arcWidth="40.0" fill="#c9b7a694" height="414.0" layoutX="337.0" layoutY="31.0" stroke="TRANSPARENT" strokeType="INSIDE" width="312.0" />
+      <Rectangle arcHeight="40.0" arcWidth="40.0" fill="#c7b5a5de" height="414.0" layoutX="337.0" layoutY="31.0" stroke="TRANSPARENT" strokeType="INSIDE" width="312.0" />
       <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#c1209617" height="35.0" layoutX="392.0" layoutY="44.0" stroke="BLACK" strokeType="INSIDE" width="199.0" />
       <Text layoutX="410.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify Store" textAlignment="CENTER">
          <font>
