@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="578.0" fitWidth="869.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="40.0" arcWidth="40.0" fill="#c9b7a694" height="414.0" layoutX="337.0" layoutY="31.0" stroke="TRANSPARENT" strokeType="INSIDE" width="312.0" />
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#c1209617" height="35.0" layoutX="392.0" layoutY="44.0" stroke="BLACK" strokeType="INSIDE" width="199.0" />
+      <Text layoutX="410.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clothify Store" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="368.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UserName*" wrappingWidth="110.13677978515625">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text layoutX="372.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password*" wrappingWidth="101.33673095703125">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="368.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/padlock.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="24.0" layoutX="368.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/user.png" />
+         </image>
+      </ImageView>
+      <Text fill="#0c1196" layoutX="368.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Forgot Password?" underline="true" wrappingWidth="149.33673095703125">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <JFXButton buttonType="RAISED" defaultButton="true" layoutX="448.0" layoutY="289.0" onAction="#btnLoginAction" prefHeight="35.0" prefWidth="110.0" style="-fx-background-color: pink; -fx-border-radius: 140px; -fx-border-width: 4;" text="Login">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField alignment="CENTER" layoutX="366.0" layoutY="128.0" prefHeight="26.0" prefWidth="224.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField alignment="CENTER" layoutX="366.0" layoutY="201.0" prefHeight="26.0" prefWidth="224.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" defaultButton="true" layoutX="448.0" layoutY="350.0" onAction="#btnSignupOnAction" prefHeight="42.0" prefWidth="110.0" style="-fx-background-color: pink;" text="SignUp">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
