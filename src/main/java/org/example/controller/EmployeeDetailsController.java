@@ -9,14 +9,13 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class RegistrationFormController {
+public class EmployeeDetailsController {
 
     private Parent parent;
     private Stage stage;
     private Scene scene;
-
-    public void btnCreateOnAction(ActionEvent actionEvent) throws IOException {
-        parent= FXMLLoader.load(getClass().getResource("/view/login.fxml"));
+    public void btnBack(ActionEvent actionEvent) throws IOException {
+        parent= FXMLLoader.load(getClass().getResource("/view/homepage.fxml"));
         stage= (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
         scene=new Scene(parent);
 
@@ -24,5 +23,4 @@ public class RegistrationFormController {
         stage.show();
     }
 }
-
 

@@ -14,6 +14,11 @@ public class Main extends Application {
         //stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/registration.fxml"))));
         //stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/homepage.fxml"))));
         //stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/forgotpw.fxml"))));
+        //stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/employeedetails.fxml"))));
+        //stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/orderdetails.fxml"))));
+        //stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/salesreport.fxml"))));
+        //stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/supplier.fxml"))));
+
         stage.show();
         stage.setResizable(false);
     }

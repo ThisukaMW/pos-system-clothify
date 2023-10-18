@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.SalesReportController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#edeff0e4" height="141.0" layoutX="50.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="142.0" />
+      <ImageView fitHeight="591.0" fitWidth="678.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/istockphoto-1656483366-612x612.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#97a4b094" height="402.0" layoutX="98.0" layoutY="41.0" stroke="BLACK" strokeType="INSIDE" width="564.0" />
+      <JFXButton layoutX="519.0" layoutY="44.0" style="-fx-background-color: brown;" text="Get daily report" />
+      <JFXButton layoutX="520.0" layoutY="81.0" style="-fx-background-color: brown;" text="Get monthly report" />
+      <JFXButton layoutX="519.0" layoutY="119.0" style="-fx-background-color: brown;" text="Get annual report" />
+      <JFXButton layoutX="519.0" layoutY="155.0" style="-fx-background-color: brown;" text="Daily reports" />
+      <JFXButton layoutX="24.0" layoutY="14.0" onAction="#btnBack" style="-fx-background-color: black;" text="Back" textFill="#f4ecec" />
+
+   </children>
+</AnchorPane>

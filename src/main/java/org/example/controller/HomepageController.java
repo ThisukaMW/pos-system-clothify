@@ -41,5 +41,42 @@ public class HomepageController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
+
+    public void btnEmployerDetails(ActionEvent actionEvent) throws IOException {
+        parent= FXMLLoader.load(getClass().getResource("/view/employeedetails.fxml"));
+        stage= (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+        scene=new Scene(parent);
+
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void btnSalesReport(ActionEvent actionEvent) throws IOException {
+        parent= FXMLLoader.load(getClass().getResource("/view/salesreport.fxml"));
+        stage= (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+        scene=new Scene(parent);
+
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void btnSupplierDetails(ActionEvent actionEvent) throws IOException {
+        parent= FXMLLoader.load(getClass().getResource("/view/supplier.fxml"));
+        stage= (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+        scene=new Scene(parent);
+
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void btnOrderDetails(ActionEvent actionEvent) throws IOException {
+        parent= FXMLLoader.load(getClass().getResource("/view/orderdetails.fxml"));
+        stage= (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
+        scene=new Scene(parent);
+
+        stage.setScene(scene);
+        stage.show();
+    }
 }
+
 

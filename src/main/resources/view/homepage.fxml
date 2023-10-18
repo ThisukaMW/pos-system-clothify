@@ -48,7 +48,7 @@
             <Image url="@../assets/shopping-bag.png" />
          </image>
       </ImageView>
-      <JFXButton layoutX="56.0" layoutY="203.0" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="                     employers">
+      <JFXButton layoutX="56.0" layoutY="203.0" onAction="#btnEmployerDetails" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="                     employers">
          <font>
             <Font size="14.0" />
          </font>
@@ -58,7 +58,7 @@
             <Image url="@../assets/employee.png" />
          </image>
       </ImageView>
-      <JFXButton layoutX="56.0" layoutY="258.0" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="                 Supplier">
+      <JFXButton layoutX="56.0" layoutY="258.0" onAction="#btnSupplierDetails" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="                 Supplier">
          <font>
             <Font size="14.0" />
          </font>
@@ -68,7 +68,7 @@
             <Image url="@../assets/parcel.png" />
          </image>
       </ImageView>
-      <JFXButton layoutX="56.0" layoutY="312.0" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="                        Order details">
+      <JFXButton layoutX="56.0" layoutY="312.0" onAction="#btnOrderDetails" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="                        Order details">
          <font>
             <Font size="14.0" />
          </font>
@@ -78,7 +78,7 @@
             <Image url="@../assets/choices.png" />
          </image>
       </ImageView>
-      <JFXButton layoutX="56.0" layoutY="421.0" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="                      Sales Report">
+      <JFXButton layoutX="56.0" layoutY="421.0" onAction="#btnSalesReport" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="                      Sales Report">
          <font>
             <Font size="14.0" />
          </font>
