@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ItemController">
+   <children>
+      <ImageView fitHeight="507.0" fitWidth="695.0" layoutX="-9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/alexander-kovacs-GMGdhtYeROY-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6f77805e" height="417.0" layoutX="24.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" width="650.0" />
+      <Text layoutX="30.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item code*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="98.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <JFXTextField layoutX="115.0" layoutY="19.0" />
+      <Text layoutX="32.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="98.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <JFXTextField layoutX="115.0" layoutY="39.0" />
+      <Text layoutX="31.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desc*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="99.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <JFXTextField layoutX="114.0" layoutY="58.0" />
+      <Text layoutX="32.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qty*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="99.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <JFXTextField layoutX="114.0" layoutY="79.0" />
+      <Text layoutX="21.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buying price">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="100.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <JFXTextField layoutX="115.0" layoutY="99.0" />
+      <Text layoutX="375.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selling price*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="466.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <JFXTextField layoutX="483.0" layoutY="18.0" />
+      <Text layoutX="376.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type*">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="377.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="377.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="465.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <Text layoutX="465.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <Text layoutX="469.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <JFXTextField layoutX="483.0" layoutY="44.0" />
+      <JFXTextField layoutX="486.0" layoutY="63.0" />
+      <JFXTextField layoutX="487.0" layoutY="88.0" />
+      <JFXButton layoutX="349.0" layoutY="155.0" style="-fx-background-color: black;" text="Print" textFill="#e7dcdc" />
+      <JFXButton layoutX="416.0" layoutY="156.0" style="-fx-background-color: black;" text="Clear" textFill="#e7dcdc" />
+      <JFXButton layoutX="499.0" layoutY="156.0" style="-fx-background-color: black;" text="Save" textFill="#e7dcdc" />
+      <JFXButton layoutX="571.0" layoutY="155.0" style="-fx-background-color: black;" text="Add Stock" textFill="#e7dcdc" />
+      <TableView layoutX="32.0" layoutY="215.0" prefHeight="200.0" prefWidth="624.0">
+        <columns>
+          <TableColumn prefWidth="65.60000228881836" text="Item code" />
+          <TableColumn prefWidth="67.199951171875" text="Desc" />
+            <TableColumn prefWidth="44.0" text="Qty" />
+            <TableColumn prefWidth="76.00001525878906" text="Selling price" />
+            <TableColumn prefWidth="80.800048828125" text="Buying price" />
+            <TableColumn minWidth="4.79998779296875" prefWidth="39.199951171875" text="Size" />
+            <TableColumn prefWidth="56.79998779296875" text="Type" />
+            <TableColumn prefWidth="58.4000244140625" text="Profit" />
+            <TableColumn prefWidth="64.800048828125" text="Suplier ID" />
+            <TableColumn prefWidth="66.39996337890625" text="Option" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="12.0" layoutY="5.0" onAction="#btnBack" style="-fx-background-color: black;" text="Back" textFill="#e7dcdc" />
+   </children>
+</AnchorPane>

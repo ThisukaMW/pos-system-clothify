@@ -28,7 +28,7 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <JFXButton layoutX="56.0" layoutY="102.0" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="               Orders">
+      <JFXButton layoutX="56.0" layoutY="102.0" onAction="#btnOrders" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="               Orders">
          <font>
             <Font size="14.0" />
          </font>
@@ -38,7 +38,7 @@
             <Image url="@../assets/shopping-cart.png" />
          </image>
       </ImageView>
-      <JFXButton layoutX="56.0" layoutY="152.0" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="             Items">
+      <JFXButton layoutX="56.0" layoutY="152.0" onAction="#btnItems" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="             Items">
          <font>
             <Font size="14.0" />
          </font>
@@ -83,7 +83,7 @@
             <Font size="14.0" />
          </font>
       </JFXButton>
-      <JFXButton layoutX="56.0" layoutY="368.0" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="                      Sales Return">
+      <JFXButton layoutX="56.0" layoutY="368.0" onAction="#btnReturn" prefHeight="34.0" prefWidth="200.0" style="-fx-background-color: white;" text="                      Sales Return">
          <font>
             <Font size="14.0" />
          </font>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ReturnFormController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/alexander-kovacs-GMGdhtYeROY-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d3d9df8f" height="343.0" layoutX="5.0" layoutY="46.0" stroke="#00000003" strokeType="INSIDE" width="588.0" />
+      <JFXButton layoutX="402.0" layoutY="50.0" style="-fx-background-color: brown;" text="Clear" textFill="#e4e1e1">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="490.0" layoutY="48.0" style="-fx-background-color: brown;" text="Save" textFill="#e4e1e1">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <TableView layoutX="12.0" layoutY="99.0" prefHeight="200.0" prefWidth="572.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Item code" />
+          <TableColumn prefWidth="56.800048828125" text="Desc" />
+            <TableColumn prefWidth="36.00006103515625" text="qty" />
+            <TableColumn prefWidth="68.79998779296875" text="Unit price" />
+            <TableColumn prefWidth="55.20001220703125" text="Date" />
+            <TableColumn prefWidth="61.60003662109375" text="Discount" />
+            <TableColumn prefWidth="44.800048828125" text="Type" />
+            <TableColumn prefWidth="46.39996337890625" text="Size" />
+            <TableColumn prefWidth="62.4000244140625" text="Amount" />
+            <TableColumn prefWidth="62.4000244140625" text="Option" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="400.0" layoutY="332.0" style="-fx-background-color: brown;" text="Place Return" textFill="#e4e1e1">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="21.0" layoutY="21.0" onAction="#btnBack" style="-fx-background-color: black;" text="Back" textFill="#fff7f7">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8fa0b062" height="40.0" layoutX="21.0" layoutY="337.0" stroke="BLACK" strokeType="INSIDE" width="208.0" />
+      <Text layoutX="36.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total :">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Label layoutX="111.0" layoutY="340.0" prefHeight="28.0" prefWidth="78.0" text="RS 0.00" textFill="#ae2d2d">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="430.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.OrderController">
+   <children>
+      <ImageView fitHeight="530.0" fitWidth="745.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/alexander-kovacs-GMGdhtYeROY-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9aa8b5a1" height="449.0" layoutX="38.0" layoutY="36.0" stroke="BLACK" strokeType="INSIDE" width="698.0" />
+      <JFXButton layoutX="9.0" layoutY="6.0" onAction="#btnBack" prefHeight="30.0" prefWidth="58.0" style="-fx-background-color: black;" text="Back" textFill="#d9d4d4" />
+      <Text layoutX="56.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employer*            :-" />
+      <Text layoutX="50.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Name*:-" />
+      <Text layoutX="459.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selling price" />
+      <Text layoutX="458.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qty" />
+      <Text layoutX="456.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desc" />
+      <Text layoutX="456.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item code" />
+      <Text layoutX="51.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Contact*:-" />
+      <Text layoutX="51.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Email*:-" />
+      <Text layoutX="56.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" />
+      <Text layoutX="142.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <Text layoutX="49.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payement" />
+      <Text layoutX="135.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <Text layoutX="523.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <Text layoutX="529.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <Text layoutX="526.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" />
+      <Text layoutX="523.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text=":-" wrappingWidth="7.400390625" />
+      <TableView layoutX="46.0" layoutY="248.0" prefHeight="200.0" prefWidth="688.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Item code" />
+          <TableColumn prefWidth="75.0" text="Desc" />
+            <TableColumn prefWidth="75.0" text="Unit price" />
+            <TableColumn prefWidth="75.0" text="Qty" />
+            <TableColumn prefWidth="75.0" text="Discount" />
+            <TableColumn prefWidth="75.0" text="Type" />
+            <TableColumn prefWidth="75.0" text="Size" />
+            <TableColumn prefWidth="75.0" text="Amount" />
+            <TableColumn prefWidth="75.0" text="Option" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="558.0" layoutY="202.0" prefHeight="30.0" prefWidth="82.0" style="-fx-background-color: black;" text="Add to cart" textFill="#d9d4d4" />
+      <JFXButton layoutX="443.0" layoutY="202.0" prefHeight="30.0" prefWidth="58.0" style="-fx-background-color: black;" text="Update" textFill="#d9d4d4" />
+      <JFXButton layoutX="334.0" layoutY="202.0" prefHeight="30.0" prefWidth="58.0" style="-fx-background-color: black;" text="Clear" textFill="#d9d4d4" />
+      <JFXButton layoutX="211.0" layoutY="202.0" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: black;" text="Remove order" textFill="#d9d4d4" />
+      <JFXTextField layoutX="178.0" layoutY="39.0" />
+      <JFXTextField layoutX="551.0" layoutY="140.0" />
+      <JFXTextField layoutX="551.0" layoutY="105.0" />
+      <JFXTextField layoutX="551.0" layoutY="74.0" />
+      <JFXTextField layoutX="551.0" layoutY="45.0" />
+      <JFXTextField layoutX="177.0" layoutY="62.0" />
+      <JFXTextField layoutX="176.0" layoutY="85.0" />
+      <JFXTextField layoutX="178.0" layoutY="125.0" />
+      <JFXTextField layoutX="174.0" layoutY="103.0" />
+      <DatePicker layoutX="171.0" layoutY="135.0" />
+      <CheckBox layoutX="174.0" layoutY="168.0" mnemonicParsing="false" text="Cash" />
+      <CheckBox layoutX="245.0" layoutY="167.0" mnemonicParsing="false" text="Card" />
+      <JFXButton layoutX="592.0" layoutY="448.0" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: black;" text="Place Order" textFill="#a95151" />
+   </children>
+</AnchorPane>
